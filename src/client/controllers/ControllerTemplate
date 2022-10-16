@@ -1,0 +1,22 @@
+local Knit = require(game:GetService("ReplicatedStorage").modules.Packages.Knit)
+
+local ControllerTemplate = Knit.CreateController { Name = "ControllerTemplate" }
+
+----- Services -----
+
+----- Private Variables -----
+----- Properties -----
+----- Private Functions -----
+----- Server Methods -----
+----- Client Methods -----
+----- Lifecycle/Initialize -----
+
+function ControllerTemplate:KnitInit()
+
+end
+
+function ControllerTemplate:KnitStart()
+
+end
+
+return ControllerTemplate
