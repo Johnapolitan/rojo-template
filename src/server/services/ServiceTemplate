@@ -1,9 +1,7 @@
 local Knit = require(game:GetService("ReplicatedStorage").modules.Packages.Knit)
-
 local ServiceTemplate = Knit.CreateService { Name = "ServiceTemplate", Client = {} }
 
 ----- Services -----
-
 ----- Private Variables -----
 ----- Properties -----
 ----- Private Functions -----
